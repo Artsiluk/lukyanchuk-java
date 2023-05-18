@@ -19,7 +19,7 @@ public class Task7 {
             } else if (i % 2 == 1) {
                 sumOfOddNum += i;
             }
-            sumOfAllNum = sumOfEvenNum + sumOfOddNum;
+            sumOfAllNum = sumOfEvenNum + sumOfOddNum;//это за циклом складывается
 
         }
         System.out.println("Sum of even numbers = " + sumOfEvenNum);
