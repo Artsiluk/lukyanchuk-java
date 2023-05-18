@@ -6,7 +6,7 @@ public class Task2 {
     public static void main(String[] args) {
         
         int sum = 1;
-
+//лишние пустые строки
         for (int i = 2; i <= 256; i *= 2) {
             sum += i;
         }
