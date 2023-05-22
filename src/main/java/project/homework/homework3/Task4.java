@@ -6,8 +6,9 @@ package project.homework.homework3;
  */
 public class Task4 {
     public static void main(String[] args) {
-//20 в переменную
-        for (int i = 1; i <= 20; i++) {
+
+        int maxNum = 20;
+        for (int i = 1; i <= maxNum; i++) {
             double size = i * 2.54;
             System.out.println(i + " Inch/inches = " + size + " centimeters");
         }
